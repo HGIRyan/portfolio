@@ -1,0 +1,27 @@
+.App{
+
+
+}
+
+.top{
+  background-repeat: no-repeat;
+  background-image: url("img/background-image-editing.png") ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* background-position: center; */
+  /* width: 100vw; */
+  /* background-color: black; */
+  background-attachment: fixed;
+}
+.next{
+  height: 1300px;
+  width:100%;
+  background-color: yellow;
+}
+
+body {
+  text-align: center;
+  /* color:#fff; */
+  /* padding-top:10em; */
+}
