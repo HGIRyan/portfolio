@@ -1,27 +1,59 @@
 .App{
 
-
 }
 
 .top{
   background-repeat: no-repeat;
-  background-image: url("img/background-image-editing.png") ;
+  background-image: url("Assets/img/background-image-editing.png") ;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  /* background-position: center; */
-  /* width: 100vw; */
-  /* background-color: black; */
-  background-attachment: fixed;
+/*   
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  text-align: center;
+   */
+
+   display: grid;
+   grid-template-rows:    repeat(3, 1fr);
+   grid-template-columns: repeat(3, 1fr);
 }
-.next{
+.level-two{
   height: 1300px;
   width:100%;
-  background-color: yellow;
+  background-color: rgb(89, 72, 34);
+  font-size: 50px;  
+  text-align: center;
+}
+.level-three{
+  height: 1300px;
+  width:100%;
+  background-color: rgb(85, 89, 131);
+  font-size: 50px;  
+  text-align: center;
+}
+.footer-level{
+height: 1300px;
+width:100%;
+background-color: rgb(7, 14, 70);
+font-size: 50px;  
+text-align: center;
 }
 
-body {
-  text-align: center;
-  /* color:#fff; */
-  /* padding-top:10em; */
+.jump-button {
+  display: inline-block;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: .3s;
+  border: 2px solid #EE6C4D;
+  background-color: #EE6C4D;
+  color: #253237;
+  height: 40px;
+  width: 90px;
 }

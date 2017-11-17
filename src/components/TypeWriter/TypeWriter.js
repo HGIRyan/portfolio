@@ -62,11 +62,10 @@ class TypeWriter extends Component {
         };
 
         return (
-            <div>
+            <div className='Type-Writer-Container'>
 
                 <div className='intro-text'> Hi, Im Michael. I like </div>
                 <a href="" className="typewrite" data-period="2000" data-type='["pizza", "ping pong", "coding", "diet coke"]'>
-                    <span className="wrap"></span>
                 </a>
             </div>
         );
