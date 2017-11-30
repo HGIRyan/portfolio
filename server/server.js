@@ -41,5 +41,5 @@ app.get('*', (req, res)=>{
 
 
 // --SETUP APP TO LISTEN TO PORT--
-const PORT = 3006;
+const PORT = 86;
 app.listen(PORT, () => console.log(`Listening on ${PORT}`))
