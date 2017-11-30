@@ -2,7 +2,7 @@
     grid-row-start:    2;
     grid-row-end:      3;
     grid-column-start: 2;
-    grid-column-end:   3;
+    grid-column-end:   5;
 
     display: flex;
 	flex-direction: column;
@@ -27,4 +27,22 @@ font-size: 50px;
 font-size: 50px;
 }
 
-/* Jump npm lib */
+.jump2-container{
+    height: 100px;
+   display: flex;
+    flex-direction: column-reverse;
+    /* outline: solid black 1px; */
+}
+
+.jump-button2 {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s;
+    border: 2px solid #fed766;
+    background-color: rgba(238, 107, 77, 0);
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+  }

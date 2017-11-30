@@ -10,16 +10,17 @@
     "express-session": "^1.15.6",
     "lodash": "^4.17.4",
     "massive": "^4.3.0",
+    "react": "^16.0.0",
     "react-autocomplete": "^1.7.2",
     "react-autosuggest": "^9.3.2",
+    "react-dom": "^16.0.0",
+    "react-icons": "^2.2.7",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
     "redux": "^3.7.2",
     "redux-promise-middleware": "^4.4.1",
-    "sweetalert": "^2.0.8",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.17"
+    "sweetalert": "^2.0.8"
   },
   "scripts": {
     "start": "react-scripts start",

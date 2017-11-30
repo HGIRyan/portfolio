@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.Expertise-Container{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    
+    height: 100%;
+    background-color: #ffffff;
+}
+
+item{
+    font-family: sans-serif;
+    font-size: 30px;
+}

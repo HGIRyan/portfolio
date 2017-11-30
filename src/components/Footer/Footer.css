@@ -1,0 +1,11 @@
+.Footer-Container{
+    height:100%;
+    background-color: #252a30;
+    color: rgba(102, 101, 101, 0.5);
+    text-align: center;
+    padding-top: 30px;
+}
+.Footer-Container a{
+    text-decoration: none;
+    color: rgba(102, 101, 101, 0.5);
+}

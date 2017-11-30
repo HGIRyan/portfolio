@@ -46,3 +46,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+.App-Expertise{
+	height: 100px;
+	width:100% 
+   }
+   .App-Showcase{
+	height: 100px;
+	width:100% 
+   }
+   .App-MyWork{
+	height: 100px;
+	width:100% 
+   }
+   .App-Contact{
+	height: 434px;
+	width:100% 
+   }
+   .App-Footer{
+	height: 275px;
+	width:100% 
+   }

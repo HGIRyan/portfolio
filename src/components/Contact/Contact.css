@@ -1,0 +1,11 @@
+.Contact-Container{
+    height:100%;
+    background-color: #fed766;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 24px;
+}
+.Contact-Container a{
+    text-decoration: none;
+}
+

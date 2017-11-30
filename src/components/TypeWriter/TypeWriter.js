@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './TypeWriter.css';
+import jump from 'jump.js'
 
 class TypeWriter extends Component {
 
@@ -8,7 +9,7 @@ class TypeWriter extends Component {
             this.toRotate = toRotate;
             this.el = el;
             this.loopNum = 0;
-            this.period = parseInt(period, 10) || 2000;
+            this.period = parseInt(period, 200) || 1000;
             this.txt = '';
             this.tick();
             this.isDeleting = false;
@@ -64,9 +65,12 @@ class TypeWriter extends Component {
         return (
             <div className='Type-Writer-Container'>
 
-                <div className='intro-text'> Hi, Im Michael. I like </div>
-                <a href="" className="typewrite" data-period="2000" data-type='["pizza", "ping pong", "coding", "diet coke"]'>
+                <div className='intro-text'> Hi, Im Michael. I design {'&'} build</div>
+                <a href="" className="typewrite" data-period="2000" data-type='["web apps.", "landing pages.", "corporate websites.", "user interfaces."]'>
                 </a>
+            <div className='jump2-container'>
+                <button className='jump-button2' onClick={_ => { jump('.App-Contact') }} > YES, I'M AVAILABLE FOR HIRE </button>
+            </div>
             </div>
         );
     }

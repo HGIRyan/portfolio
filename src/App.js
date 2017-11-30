@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
+
 import './App.css';
+
 import TypeWriter from './components/TypeWriter/TypeWriter'
-import jump from 'jump.js'
+import Expertise from './components/Expertise/Expertise'
+import Showcase from './components/Showcase/Showcase'
+import MyWork from './components/MyWork/MyWork'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+
 
 class App extends Component {
 
@@ -9,25 +16,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='top'>
-          <TypeWriter />
-          <button className='jump-button' onClick={_ => { jump('.level-two') }} > go to level two</button>
-
-        </div>
-        <div className='level-two'>
-        level-two <br/>
-          <button onClick={_ => { jump('.level-three') }} > go to level three </button>
-        </div>
-        <div className='level-three'>
-        level-three<br/>
-        <button onClick={_ => { jump('.footer-level') }} > go to level three </button>
-        </div>
-        <div className='footer-level'>
-        bottom of page <br/>
-        <button onClick={_ => { jump('.top') }} > click here to go back to top </button>
-        
-
-        </div>
+        <div className='top'> <TypeWriter /> </div>
+        <groups>
+          {/* <div className='App-Showcase' ><Showcase /></div>
+          <div className='App-MyWork' ><MyWork /></div> */}
+          <div className='App-Expertise' ><Expertise /></div>
+          <div className='App-Contact' ><Contact /></div>
+          <div className='App-Footer' ><Footer /></div>
+        </groups>
       </div>
     );
   }

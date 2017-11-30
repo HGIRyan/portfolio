@@ -1,47 +1,19 @@
 .App{
 
 }
+groups{
 
+}
 .top{
   background-repeat: no-repeat;
   background-image: url("Assets/img/background-image-editing.png") ;
   background-size: cover;
   background-position: center;
   height: 100vh;
-/*   
-  display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-  align-content: stretch;
-  text-align: center;
-   */
 
-   display: grid;
-   grid-template-rows:    repeat(3, 1fr);
-   grid-template-columns: repeat(3, 1fr);
-}
-.level-two{
-  height: 1300px;
-  width:100%;
-  background-color: rgb(89, 72, 34);
-  font-size: 50px;  
-  text-align: center;
-}
-.level-three{
-  height: 1300px;
-  width:100%;
-  background-color: rgb(85, 89, 131);
-  font-size: 50px;  
-  text-align: center;
-}
-.footer-level{
-height: 1300px;
-width:100%;
-background-color: rgb(7, 14, 70);
-font-size: 50px;  
-text-align: center;
+  display: grid;
+   grid-template-rows:    2fr 3fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .jump-button {
@@ -57,3 +29,16 @@ text-align: center;
   height: 40px;
   width: 90px;
 }
+
+.App-Expertise{
+height:800px;
+}
+
+.App-Contact {
+
+}
+
+.App-Footer{
+
+}
+
