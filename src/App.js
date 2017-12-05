@@ -18,9 +18,9 @@ class App extends Component {
       <div className="App">
         <div className='top'> <TypeWriter /> </div>
         <groups>
-          {/* <div className='App-Showcase' ><Showcase /></div>
-          <div className='App-MyWork' ><MyWork /></div> */}
+          {/* {/* <div className='App-Showcase' ><Showcase /></div> */}
           <div className='App-Expertise' ><Expertise /></div>
+          <div className='App-MyWork' ><MyWork /></div>
           <div className='App-Contact' ><Contact /></div>
           <div className='App-Footer' ><Footer /></div>
         </groups>

@@ -1,4 +1,13 @@
 .MyWork-Container{
     height:100%;    
-    background-color: #e18e8e
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-rows:    1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
 }
+/* .project-tile{
+    grid-row-start:    2;
+    grid-row-end:      5;
+    grid-column-start: 2;
+    grid-column-end:   5;
+} */

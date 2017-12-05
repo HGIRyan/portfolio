@@ -10,7 +10,10 @@ class MyWork extends Component {
         return (
             <div className='MyWork-Container'>
             MyWork
-            <div className='App-ProjectTiles' > <ProjectTiles/> </div>
+            {/* <div className='project-tile'> */}
+            <ProjectTiles/>
+            {/* </div> */}
+            
             </div>
         );
     }

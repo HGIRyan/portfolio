@@ -31,7 +31,11 @@ groups{
 }
 
 .App-Expertise{
-height:800px;
+height:500px;
+}
+.App-MyWork{
+  height:700px;
+
 }
 
 .App-Contact {
