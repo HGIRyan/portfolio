@@ -70,7 +70,9 @@ class TypeWriter extends Component {
                 </a>
             <div className='jump2-container'>
                 <button className='jump-button2' onClick={_ => { jump('.App-Contact') }} > YES, I'M AVAILABLE FOR HIRE </button>
-            </div>
+            </div>           
+
+            
             </div>
         );
     }

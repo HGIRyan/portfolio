@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './ProjectTiles.css';
-import dashImg from '../../../Assets/img/employee-dash.svg';
-import shopImg from '../../../Assets/img/employee-shop.svg';
+// import dashImg from '../../../Assets/img/employee-dash.svg';
+// import shopImg from '../../../Assets/img/employee-shop.svg';
 import laptopImg from '../../../Assets/img/laptop.svg';
 import Slider from 'react-slick'
 
