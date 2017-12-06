@@ -4,8 +4,16 @@
     text-align: center;
     padding-top: 30px;
     font-size: 24px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    font-size: 30px;
 }
 .Contact-Container a{
     text-decoration: none;
+
 }
 

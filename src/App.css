@@ -1,7 +1,7 @@
 .App{
-
+  font-family: 'Roboto Condensed', sans-serif;  
 }
-groups{
+.groups{
 
 }
 .top{
@@ -23,8 +23,8 @@ groups{
   cursor: pointer;
   border-radius: 3px;
   transition: .3s;
-  border: 2px solid #EE6C4D;
-  background-color: #EE6C4D;
+  /* border: 2px solid #EE6C4D;
+  background-color: #EE6C4D; */
   color: #253237;
   height: 40px;
   width: 90px;
@@ -32,6 +32,10 @@ groups{
 
 .App-Expertise{
 height:800px;
+}
+.App-MyWork{
+  height:700px;
+
 }
 
 .App-Contact {
@@ -42,3 +46,42 @@ height:800px;
 
 }
 
+.jump-button-skills {
+  display: inline-block;
+  margin-bottom: 30px;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  transition: .3s;
+  border: 2px solid #fed56600;
+  background-color: rgba(103, 98, 98, 0.219);
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  outline: none; 
+  font-size: 25px;
+  font-weight: bold;   
+  text-align: center;
+  }
+
+.jump-skills-container{
+height: 100px;
+display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ /* outline: solid black 1px; */
+ outline: none;
+ 
+ grid-row-start: 3;
+ grid-row-end: 4;
+ grid-column-start: 3;
+ grid-column-end: 4;
+ text-align: center;
+}
+.jump-skills-container > h2{
+  color: rgba(103, 98, 98, 0.521);
+  font-size: 60px;
+  margin-top:-40px;
+}

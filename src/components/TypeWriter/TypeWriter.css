@@ -32,6 +32,8 @@ font-size: 50px;
    display: flex;
     flex-direction: column-reverse;
     /* outline: solid black 1px; */
+    outline: none;
+    margin-bottom: -30px;
 }
 
 .jump-button2 {
@@ -45,4 +47,6 @@ font-size: 50px;
     color: #ffffff;
     height: 40px;
     width: 100%;
+    outline: none;  
+    font-weight: bold;  
   }
