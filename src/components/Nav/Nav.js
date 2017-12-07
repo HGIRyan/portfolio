@@ -9,7 +9,7 @@ class Nav extends Component {
             <div className='Nav-Container'>
 
                 <p><div id='navButton' onClick={_ => { jump('.Expertise-Container') }} > Skills </div></p>
-                <p><div id='navButton' onClick={_ => { jump('.MyWork-Container') }} > My Work </div></p>
+                <p><div id='navButton' onClick={_ => { jump('.MyWork-Container') }} > Work </div></p>
                 <p><div id='navButton' onClick={_ => { jump('.Contact-Container') }} > Contact </div></p>
             </div >
         );
