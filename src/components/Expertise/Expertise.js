@@ -15,23 +15,23 @@ class Expertise extends Component {
             <div className='Expertise-Container'>
                 <div className='expertise-items'>
                     <div>
-                        < img id='react' src={react} alt='React.JS Icon' title='React.JS Icon' />
+                        < img id='react' className="skillIcon" src={react} alt='React.JS Icon' title='React.JS Icon' />
                         <h2>React.JS </h2>
                     </div>
                     <div>
-                        < img id='nodejs' src={nodejs} alt='Node.JS Icon' title='Node.JS Icon' />
+                        < img id='nodejs'  className="skillIcon" src={nodejs} alt='Node.JS Icon' title='Node.JS Icon' />
                         <h2>Node.JS</h2>
                     </div>
                     <div>
-                        < img id='postgresql' src={postgresql} alt='PostgreSQL Icon' title='PostgreSQL Icon' />
+                        < img id='postgresql'  className="skillIcon" src={postgresql} alt='PostgreSQL Icon' title='PostgreSQL Icon' />
                         <h2>PostgreSQL</h2>
                     </div>
                     <div>
-                        < img id='angular' src={angular} alt='Angular.JS Icon' title='Angular.JS Icon' />
+                        < img id='angular'  className="skillIcon" src={angular} alt='Angular.JS Icon' title='Angular.JS Icon' />
                         <h2>Angular.JS</h2>
                     </div>
                     <div>
-                        < img id='git' src={git} alt='GitHub Icon' title='GitHub Icon' />
+                        < img id='git'  className="skillIcon" src={git} alt='GitHub Icon' title='GitHub Icon' />
                         <h2>GitHub</h2>
                     </div>
                 </div>

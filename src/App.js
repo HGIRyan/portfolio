@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FaIconPack from 'react-icons/lib/fa'
 import FaAngleDoubleDown from 'react-icons/lib/fa/angle-double-down'
+import Nav from './components/Nav/Nav'
 // import FontAwesome from 'react-icons/lib/fa/angle-double-down'
 // FaAngleDoubleDown
 
@@ -20,10 +21,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='top'> <TypeWriter /> 
+
+        <div className='top'>
+            <div className='NavBar-Container'> <Nav/> </div> 
+         <TypeWriter />
         <div className='jump-skills-container'>
-            <button className='jump-button-skills' onClick={_ => { jump('.Expertise-Container') }} > Learn more about what I do </button>
-            <h2><FaAngleDoubleDown onClick={_ => { jump('.Expertise-Container') }}/></h2>
+            {/* <button className='jump-button-skills' onClick={_ => { jump('.Expertise-Container') }} > <FaAngleDoubleDown/></button> */}
+            {/* <h2><FaAngleDoubleDown/></h2> */}
           
             </div>
             </div>

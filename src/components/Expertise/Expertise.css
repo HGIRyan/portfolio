@@ -39,3 +39,8 @@ item{
     margin-right: 10px;
     width: 100%;
 }
+.skillIcon:hover{
+    transition: transform .8s, opacity .75s;
+    transform: scale(0.95);
+    opacity: .1;
+}
