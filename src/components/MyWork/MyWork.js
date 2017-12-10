@@ -70,6 +70,7 @@ class MyWork extends Component {
                         <h4>ReactJS | NodeJS | Redux | Sass | Express | PostgreSQL</h4>
                         <h4> | Material-UI | Quill | Auth0</h4>
                         <h2>A social networking platform to bring people who suffer from chronic illnesses together to organize meet ups and create social groups for support. </h2>
+                        <h4><a href='http://PurelySupport.com' target='_blank' > PurelySupport.com </a></h4>
 
                     </div> :
 
@@ -79,6 +80,7 @@ class MyWork extends Component {
                         <h4>ReactJS | NodeJS | Redux | Express | PostgreSQL |</h4>
                          <h4> CSS | HTML5</h4>
                         <h2>Web app to enable management to engage with their workforce through a company social network</h2>
+                        <h4><a href='http://Michaelis.MyNextDev.com' target='_blank' > Michaelis.MyNextDev.com </a></h4>
 
                     </div>
 
