@@ -37,7 +37,7 @@
 }
 
 .App-Expertise{
-height:900px;
+height:100%;
 }
 .App-MyWork{
   height:700px;
@@ -100,4 +100,17 @@ display: flex;
   color: rgba(103, 98, 98, 0.521);
   font-size: 60px;
   margin-top:-40px;
+}
+.App-MyWork-Mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 1370px) {
+  .App-MyWork-Mobile{
+      display: block;
+  }
+  .App-MyWork{
+    display: none;
+  }
+
 }

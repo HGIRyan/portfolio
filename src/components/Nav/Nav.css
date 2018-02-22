@@ -11,14 +11,14 @@
     color: white;
 
 }
-p > #navButton{
+#navButton > p{
     font-size: 30px;
     /* color: white; */
     text-align: left;
     margin-bottom:10px;
 }
 
-p > #navButton:hover{
+#navButton> p:hover{
    transition: transform .8s, opacity .20s;
     transform: scale(1.05);  
 }

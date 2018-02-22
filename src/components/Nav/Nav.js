@@ -8,9 +8,9 @@ class Nav extends Component {
         return (
             <div className='Nav-Container'>
 
-                <p><div id='navButton' onClick={_ => { jump('.Expertise-Container') }} > Skills </div></p>
-                <p><div id='navButton' onClick={_ => { jump('.MyWork-Container') }} > Work </div></p>
-                <p><div id='navButton' onClick={_ => { jump('.Contact-Container') }} > Contact </div></p>
+                <div id='navButton' onClick={_ => { jump('.Expertise-Container') }} ><p> Skills </p></div>
+                <div id='navButton' onClick={_ => { jump('.MyWork-Container') }} ><p> Work </p></div>
+                <div id='navButton' onClick={_ => { jump('.Contact-Container') }} ><p> Contact </p></div>
             </div >
         );
     }

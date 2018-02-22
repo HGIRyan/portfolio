@@ -44,3 +44,26 @@ item{
     transform: scale(0.95);
     opacity: .1;
 }
+
+@media only screen and (max-width: 787px) {
+    .expertise-items > div> img{
+        height: 100px;
+    }
+    .expertise-items{
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+@media only screen and (max-width: 965px) and (min-width: 787px) {
+    .expertise-items > div> img{
+        height: 200px;
+    }
+    .expertise-items{
+        width: 100%;
+        height: 100vh;
+    }
+    .expertise-items > div{
+        padding: 30px;
+    }
+}

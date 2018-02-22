@@ -6,6 +6,7 @@ import TypeWriter from './components/TypeWriter/TypeWriter'
 import Expertise from './components/Expertise/Expertise'
 import Showcase from './components/Showcase/Showcase'
 import MyWork from './components/MyWork/MyWork'
+import MyWorkMobile from './components/MyWork/MyWorkMobile/MyWorkMobile'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FaIconPack from 'react-icons/lib/fa'
@@ -35,6 +36,7 @@ class App extends Component {
           {/* {/* <div className='App-Showcase' ><Showcase /></div> */}
           <div className='App-Expertise' ><Expertise /></div>
           <div className='App-MyWork' ><MyWork /></div>
+          <div className='App-MyWork-Mobile' ><MyWorkMobile /></div>
           <div className='App-Contact' ><Contact /></div>
           <div className='App-Footer' ><Footer /></div>
         </div>
